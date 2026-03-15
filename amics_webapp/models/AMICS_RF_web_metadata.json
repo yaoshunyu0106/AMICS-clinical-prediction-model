@@ -1,0 +1,20 @@
+{
+  "selected_features": [
+    "age",
+    "lactic.acid",
+    "BUN",
+    "GLU",
+    "HCO_3",
+    "HB",
+    "SBP",
+    "Cr"
+  ],
+  "outcome": "X30.day.mortality",
+  "best_params": {
+    "n_estimators": 1919,
+    "max_depth": 5,
+    "min_samples_leaf": 2,
+    "max_features": 0.3592131383
+  },
+  "deployment_note": "Web deployment model using median imputation + RF"
+}
